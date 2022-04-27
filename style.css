@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.img,.text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid hsl(167, 98%, 39%);
+    outline: none;
+    text-align: center;
+}
+button{
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    background:hsl(167, 98%, 39%) ;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
